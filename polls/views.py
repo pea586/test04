@@ -6,5 +6,6 @@ from django.http import HttpResponse
 def index(reqeust):
     return HttpResponse('hello world from polls/app')
 
+
 class PollView():
     pass
